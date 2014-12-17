@@ -4,7 +4,7 @@ $feed = new DOMDocument();
 $feed->load('http://www.adaderana.lk/bizenglish/?feed=rss2');
 $json = array();
 
-
+//testing 
 //$json['title'] = $feed->getElementsByTagName('channel')->item(0)->getElementsByTagName('title')->item(0)->firstChild->nodeValue;
 //$json['description'] = $feed->getElementsByTagName('channel')->item(0)->getElementsByTagName('description')->item(0)->firstChild->nodeValue;
 //$json['link'] = $feed->getElementsByTagName('channel')->item(0)->getElementsByTagName('link')->item(0)->firstChild->nodeValue;
