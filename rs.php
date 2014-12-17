@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 $feed = new DOMDocument();
-$feed->load('http://www.adaderana.lk/bizenglish/?feed=rss2');
+$feed->load('');
 $json = array();
 
 //testing 
