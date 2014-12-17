@@ -28,8 +28,8 @@ foreach($items as $item) {
    $thumbnail = $item->getElementsByTagName('thumbnail')->item(0) ? $item->getElementsByTagName('thumbnail')->item(0)->getAttribute('url') : '';
    $image = $item->getElementsByTagName('content')->item(0) ? $item->getElementsByTagName('content')->item(0)->getAttribute('url') : '';
 	
-	 $json['TopNewsGivenCat'][$i]['author'] = "AdaDerana";
-	 $json['TopNewsGivenCat'][$i]['category'] = "AdaderanaBiz";
+	 $json['TopNewsGivenCat'][$i]['author'] = "hh";
+	 $json['TopNewsGivenCat'][$i]['category'] = "xmxjx";
 	 $json['TopNewsGivenCat'][$i]['categoryID'] = "44";
 	 $json['TopNewsGivenCat'][$i]['contents'] = $content;
 	 $json['TopNewsGivenCat'][$i]['id'] = "";
